@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, user-scalable=on">
+	<title>Responsive menu</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body>
+	<nav>
+		<div class="toggle">
+			<div class="menu"><i class="fa fa-bars" aria-hidden="true"></i></div>
+
+		</div>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a>
+			<li><a href="#">Servise</a>
+			<li><a href="#">Fortpolio</a>
+			<li><a href="#">Blog</a>
+		</ul>
+	</nav>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.menu').click(function(){
+				$('.ul').toggle.class('active');
+			})
+		})
+	</script>
+</body>
+</html>
