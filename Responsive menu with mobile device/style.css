@@ -43,6 +43,7 @@
 {
 	list-style: none;
     display: inline-block;
+    margin-left: 3px;
 }
 .nav ul li a
 {
