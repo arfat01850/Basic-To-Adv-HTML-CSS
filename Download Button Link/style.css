@@ -1,0 +1,17 @@
+
+
+
+
+.button {
+    text-align: center;
+    
+    margin-top: 100px;
+}
+.button a{
+	background-color: #053ab1;
+	text-align: center;
+	padding: 10px 30px;
+	color: #fff;
+	font-family: fantasy;
+	font-size: 31px;
+}
