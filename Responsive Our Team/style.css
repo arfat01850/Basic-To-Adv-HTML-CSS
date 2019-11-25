@@ -148,3 +148,12 @@ mix-blend-mode: soft-light;
 	transform: rotateY(360deg);
 	color: #f00;
 }
+
+	.column{
+		height: 0px;
+	}
+	.imgBox{
+		height: 100%;
+   		 width: 100%;
+	}
+
