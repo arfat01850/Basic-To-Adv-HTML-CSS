@@ -1,17 +1,22 @@
 
 
-
+body{
+	background: #313131;
+}
 
 .button {
+    top: 50%;
+    left: 30%;
+    position: absolute;
     text-align: center;
     
-    margin-top: 100px;
 }
 .button a{
-	background-color: #053ab1;
+	border-radius: 14px;
+	background-color: #bb9e10;
 	text-align: center;
 	padding: 10px 30px;
 	color: #fff;
-	font-family: fantasy;
-	font-size: 31px;
+	font-family: unset;
+	font-size: 29px;
 }
