@@ -71,8 +71,10 @@ input[type=text], select {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  outline: none;
+
 }
-input[type="submit"]{
+.sumbit-btn{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -83,5 +85,9 @@ input[type="submit"]{
     color: #ffff;
     font-size: 20px;
     font-weight: 900;
+    text-transform: uppercase;
+     outline: none;
+     cursor: pointer;
+
 }
 
