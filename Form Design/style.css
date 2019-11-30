@@ -27,7 +27,9 @@ h6 {
     font-weight: 700;
 }
 html,
-body { height: 100% }
+body { height: 100%;
+        font-family: 'Josefin Sans', sans-serif;
+    }
 
 
 .test {font-family: 'Lato', sans-serif;}
@@ -46,16 +48,18 @@ a:hover { text-decoration: none }
     margin-top: 5%;
 }
 .form-area h1{
-   font-family: auto;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 30px;
-    background-color: green;
-    color: #ffff;
+    background-color: #1a231a;
+    color: #74f73e;
     padding: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
 }
 .form{
-    padding: 5% 11%;
+   padding: 2% 5%;
     background-color: gray;
-    width: 653px;
+    width: 581px;
     margin: 0px auto;
     border-radius: 19px;
 }
